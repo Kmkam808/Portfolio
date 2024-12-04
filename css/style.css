@@ -1,0 +1,140 @@
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Comfortaa';
+}
+
+p {
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    color: black;
+}
+
+.body-padding {
+    padding: 1em 2em;
+}
+
+.light-bg {
+    background-color: #E4DEFF;
+}
+
+.dark-bg {
+    background-color: #BFB3FF;
+}
+
+.project-bg {
+    background-color: #8974F7;
+    color: #FFFFFF;
+    padding: 1em;
+}
+
+body .btn {
+    background-color: #B3CDFF;
+}
+
+.navbar-brand {
+    color: black;
+}
+
+body .navbar {
+    padding: 0;
+}
+
+body .navbar h3 {
+    margin-bottom: 0;
+}
+
+body .navbar .btn {
+    margin-right: 0.5em;
+}
+
+body .btn:hover {
+    background-color: #4986F8;
+    color: #FFFFFF;
+}
+
+.col-project {
+    margin: 0 1em;
+}
+
+.project-img-div {
+    display: grid;
+    align-content: center;
+}
+
+.project-text {
+    padding-left: 0;
+}
+
+.project-text-inner {
+    margin-bottom: 3em;
+}
+
+.learn-btn {
+    position: absolute;
+    bottom: 0;
+    right: 1em;
+}
+
+.project-info-field {
+    margin-right: 0.25em;
+}
+
+.project-info-text {
+    margin-top: 0.5em;
+}
+
+@media (min-width: 768px) {
+    .project-detail-img-div {
+        width: 30em;
+        justify-self: center;
+    }
+}
+
+@media (max-width: 767px) {
+    .project-text {
+        margin: 1em 1em 0 1em;
+    }
+}
+
+@media (max-width: 575px) {
+    .about-text {
+        margin-top: 1em;
+    }
+}
+
+@media (max-width: 500px) {
+    .col-project {
+        margin-left: 0;
+        margin-bottom: 1em;
+        flex: none;
+    }
+}
